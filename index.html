@@ -1,0 +1,77 @@
+<!--
+ * @Date: 2021-12-15 13:57:06
+ * @LastEditors: Ke Ren
+ * @LastEditTime: 2022-01-27 23:18:07
+ * @FilePath: /tower-defense-game/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- mapCanvas -- battlemap(background) -->
+    <canvas id = "mapCanvas"></canvas>
+
+    <!-- towerCanvas -- towers -->
+    <canvas id = "towerCanvas"></canvas>
+
+    <!-- enemisCanvas -- enemies -->
+    <canvas id = "enemisCanvas"></canvas>
+
+    <!-- bulletsCanvas -- bullets -->
+    <canvas id = "bulletsCanvas"></canvas>
+    
+    <!-- copyrightCanvas -- copyright -->
+    <canvas id = "copyrightCanvas"></canvas>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/x-icon" href="assets/images/ui/favicon.png">
+    <title>Tower Defense Game</title>
+
+</head>
+<body>
+    <script src="js/method.js" type="text/javascript"></script>
+    <script src="js/data.js" type="text/javascript"></script>
+    <script src="js/enemy.js" type="text/javascript"></script>
+    <script src="js/tower.js" type="text/javascript"></script>
+    <script src="js/ui.js" type="text/javascript"></script>
+    <script src="js/bullet.js" type="text/javascript"></script>
+    <script src="js/game.js" type="text/javascript"></script>
+
+    <div class="log">
+        <h2>Key Updates <a href="https://github.com/ren00040/tower-defense-game" target="_blank">Github Link</a></h2>
+        <ul>
+            <li>
+                <p>2021/12/15: Create repository and adding index.html and method.js.</p>
+            </li>
+            <li>
+                <p>2021/12/17: Create Game Menu and add click event.</p>
+            </li>
+            <li>
+                <p>2021/12/20: game scene loading contains backgroud map, settle places and waypath points.</p>
+            </li>
+            <li>
+                <p>2022/1/2: enmeie spawn and rush out.</p>
+            </li>
+            <li>
+                <p>2022/1/5: adding UI; player can build towers</p>
+            </li>
+            <li>
+                <p>2022/1/17: fire the bullets to enemy</p>
+            </li>
+            <li>
+                <p>2022/1/21: decrease the enemy's hp and detory them; bullet can adjust the direction to aim enemy </p>
+            </li>
+            <li>
+                <p>2022/1/23: Game win and Game Over</p>
+            </li>
+            <li>
+                <p>TODO: sound effect</p>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
